@@ -14,8 +14,8 @@ class Entry:
     # Look up entry in dictionary and populate class variables with information
     def __init__(self, word, reading=None):
         self.word = word
-        self.furigana = _furi(reading)
-        self.kanji_stem = _kanji(word)
+        self.furigana = self._furi(reading)
+        self.kanji_stem = self._kanji(word)
 
     # Method to lookup a word in the dictionary
     def lookup(self, word):
