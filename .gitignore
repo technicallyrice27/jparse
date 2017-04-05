@@ -3,3 +3,4 @@
 .DS_Store
 CabochaWrapper/build
 CabochaWrapper/__pychache__
+.cache/

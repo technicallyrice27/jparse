@@ -1,0 +1,3 @@
+cabocha-python==0.69
+py==1.4.33
+pytest==3.0.7

@@ -1,5 +1,9 @@
 # JParse
 
+## Requirements
+
+Python = 3.6.1
+
 ## Installation
 
 1. Install MeCab
